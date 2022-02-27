@@ -1,0 +1,11 @@
+{
+  "name": "landing",
+  "version": "1.0.0",
+  "description": "Realización de Landing como parte de la prueba técnica con Makaia",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jaiber Flor",
+  "license": "MIT"
+}
