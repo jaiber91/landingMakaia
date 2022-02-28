@@ -17,58 +17,61 @@ list-style: none;
 .guide a{
     color: #2C73D2;
     text-decoration: none;
+
+   
 }
-/*-----MAIN----*/
-.dominios{
+ /*----MAIN---*/
+ .socialMedia{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 5rem;
-}
-.dominios-texto{
-    width: 80%;
-}
-.dominios-texto h1{
+    margin-bottom: 5rem; 
+ }
+ .socialMedia h1{
     font-family: 'Montserrat', sans-serif;
     text-align: center;
-}
-.dominios-texto p{
-    line-height: 1.5rem;
+ }
+ .socialMedia-text{
     font-family: 'Montserrat', sans-serif;
+    line-height: 1.5rem;
+    width: 80%;
 }
-.dominios-videos{
+.socialMedia-text-cite{
+    display: flex;
+    justify-content: end;
+    color: #2C73D2;
+}
+.socialMedia-text-cite a{
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+.socialMedia-video{
     display: flex;
     justify-content: center;
+    margin-top: 2rem;
     gap: 1rem;
     flex-wrap: wrap;
 }
-
-/*----RECURSOS----*/
-.dominios-texto ul{
-    font-family: 'Montserrat', sans-serif;
-}
-.dominios-recursos{
+.socialMedia-resource{
     display: flex;
     flex-direction: row;
     width: 80%;
 }
-.dominios-recursos-links{
+.socialMedia-resource-links{
     display: flex;
     flex-direction: column;
     margin-top: 4rem;
 }
-.dominios-recursos-links h2{
+.socialMedia-resource-links h2{
     font-family: 'Montserrat', sans-serif;
 }
-
-.dominios-recursos-links a{
+.socialMedia-resource-links a{
     font-family: 'Montserrat', sans-serif;
     color: #012030;
     text-decoration: none;
-    line-height: 1.5rem;
+    line-height: 2rem;
 }
-
 /*------FOOTER-------*/
 .footer{
     display: flex;

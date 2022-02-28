@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:0;
+    padding: 0;
+}
+
+body h1{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+.guide{
+    display: flex;
+    list-style: none;
+}
+.guide a{
+    color: #2C73D2;
+    text-decoration: none;
+}
+body img{
+    text-align: center;
+    width: 90%;
+    height: 90vh;
+}
